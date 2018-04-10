@@ -1,2 +1,0 @@
-初始版本推荐系统，基于用户的评分进行书籍推荐，数据源采用Kafka模拟分数进行生产，spakrstreaming进行消费并传输数据到hdfs;
-新spakrstreaming通过监控hdfs目录，对新数据进行推荐引擎计算，得到推荐结果并存入HBase表。
